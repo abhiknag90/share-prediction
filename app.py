@@ -327,7 +327,7 @@
    "source": [
     "import openai\n",
     "\n",
-    "openai_client = openai.OpenAI(api_key=\"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\")  # Replace with your actual API key\n",
+    "openai_client = openai.OpenAI(api_key=\"")  # Replace with your actual API key\n",
     "\n",
     "response = openai_client.chat.completions.create(\n",
     "    model=\"gpt-4\",\n",
